@@ -28,4 +28,4 @@ def pytest_collection_modifyitems(items):
             item.add_marker(pytest.mark.P0)
         if "P1" in item.nodeid:
             item.add_marker(pytest.mark.P1)
-        print(item)
+
